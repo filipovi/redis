@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/filipovi/redis/config"
-	redis "gopkg.in/redis.v5"
+	redis "github.com/go-redis/redis"
 )
 
 // Client is the Redis Client structure
