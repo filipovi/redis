@@ -2,21 +2,25 @@
 
 
 [[projects]]
-  name = "gopkg.in/redis.v5"
+  digest = "1:7c2fd446293ff7799cc496d3446e674ee67902d119f244de645caf95dff1bb98"
+  name = "github.com/go-redis/redis"
   packages = [
     ".",
     "internal",
     "internal/consistenthash",
     "internal/hashtag",
     "internal/pool",
-    "internal/proto"
+    "internal/proto",
+    "internal/singleflight",
+    "internal/util",
   ]
-  revision = "a16aeec10ff407b1e7be6dd35797ccf5426ef0f0"
-  version = "v5.2.9"
+  pruneopts = "UT"
+  revision = "f3bba01df2026fc865f7782948845db9cf44cf23"
+  version = "v6.14.1"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "b9f0b1330ff28049e510006782532d61df37faba13dec4db0115194dc6a0f397"
+  input-imports = ["github.com/go-redis/redis"]
   solver-name = "gps-cdcl"
   solver-version = 1

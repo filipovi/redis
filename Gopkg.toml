@@ -26,8 +26,8 @@
 
 
 [[constraint]]
-  name = "gopkg.in/redis.v5"
-  version = "5.2.9"
+  name = "github.com/go-redis/redis"
+  version = "6.14.1"
 
 [prune]
   go-tests = true
